@@ -8,6 +8,8 @@ const main = async () => {
   console.log(sasha);
 
   const max = await dogs.addDog("Max", ["Mastiff"]);
+  const all = await dogs.getAllDogs();
+  console.log( all );
   console.log(
     "Max enters the playing field; he is a grizzled ex-cop with a heart of gold."
   );
